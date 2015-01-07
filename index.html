@@ -6,9 +6,12 @@ src="https://maps.googleapis.com/maps/api/js">
 </script>
 
 <script>
+
+var myCenter=new google.maps.LatLng(38.428816,-90.54639);
+
 function initialize() {
   var mapProp = {
-    center:new google.maps.LatLng(38.428816,-90.54639),
+    center:myCenter,
     zoom:17,
     mapTypeId:google.maps.MapTypeId.HYBRID
   };
