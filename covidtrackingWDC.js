@@ -82,7 +82,7 @@
 	
 	$(document).ready(function () {
     $("#submitButton").click(function () {
-        tableau.connectionName = "USGS Earthquake Feed";
+        tableau.connectionName = "Covidtracking.com Daily State Feed";
         tableau.submit();
     });
 });
